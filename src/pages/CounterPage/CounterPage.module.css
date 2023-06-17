@@ -1,0 +1,13 @@
+.container{
+    @apply mx-auto flex gap-6 items-center justify-center
+}
+
+.button{
+    @apply px-6 py-2 transition rounded-lg text-white bg-[#00C896] hover:bg-[#00754B]
+}
+
+.count{
+    @apply text-2xl font-semibold text-[#474747];
+    view-transition-name: count-item;
+}
+

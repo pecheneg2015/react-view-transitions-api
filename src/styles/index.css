@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+#main-content {
+    view-transition-name: root-item;
+}
+
+
+::view-transition-old(*),
+::view-transition-new(*) {
+    mix-blend-mode: normal;
+    display: block;
+    animation: none;
+}
+
